@@ -29,7 +29,7 @@ class ManagerTest {
     @Test
     public void shouldFindAll() {
         Ticket[] actual = manager.findAll("LED", "SVO");
-        Ticket[] expected = new Ticket[]{second, first};
+        Ticket[] expected = new Ticket[]{ second, first};
         assertArrayEquals(actual, expected);
 
     }
@@ -41,6 +41,7 @@ class ManagerTest {
         assertArrayEquals(actual, expected);
 
     }
+
     @Test
     public void shouldSortById() {
         Ticket[] expected = new Ticket[]{second, first, fourth, third};
