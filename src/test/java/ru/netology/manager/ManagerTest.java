@@ -14,7 +14,7 @@ class ManagerTest {
     private Repository repository = new Repository();
     private Manager manager = new Manager(repository);
     private Ticket first = new Ticket(1, 1500, "LED", "SVO", 120);
-    private Ticket second = new Ticket(2, 1000, "LED", "SVO", 300);
+    private Ticket second = new Ticket(2, 1000, "LED", "SVO", 500);
     private Ticket third = new Ticket(3, 5000, "VOG", "VKO", 150);
     private Ticket fourth = new Ticket(4, 3000, "GOJ", "IST", 200);
 
